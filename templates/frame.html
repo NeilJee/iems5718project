@@ -37,7 +37,7 @@
 						</a>
 						</h4>
 					</div>
-					<div id="collapseOne" class="panel-collapse" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false">
+					<div id="collapseOne" class="panel-collapse collapse.in" role="tabpanel" aria-labelledby="headingOne" aria-expanded="false">
 						<!-- <div class="panel-body"> -->
 						<div class="list-group">
 							<button onclick="{location.href='/dom_injection'}"  type="button" class="list-group-item">DOM INJECTION</button>
@@ -96,19 +96,19 @@
 			<article class="col-md-10 col-lg-10">
 			
 				{% if islesson %}
-					<div id="guide_section" class="guide_section jumbotron">
+					<div id="guide_section" class="guide_section">
 						<h3 class="guide_title">
 						Lesson guide
 						</h3>
 						<p class="guide_content">
-							1.abcdefasgasdgas.
-							2.sadfasfasfasfasdf.
-							3.sadfasfafaf.
-							4.asdfasfasfasf.
+							1.abcdefasgasdgas.<br>
+							2.sadfasfasfasfasdf.<br>
+							3.sadfasfafaf.<br>
+							4.asdfasfasfasf.<br>
 						</p>
-						<p class="text-center">
-							<input class="btn btn-success" type="submit" id="start_lesson" value="start lesson">
-						</p>
+						<div class="text-center">
+							<input class="btn btn-success btn-lg" type="submit" id="start_lesson" value="start lesson">
+						</div>
 					</div>
 				{% endif %}
 				<div id="lesson_section" class="lesson_section">

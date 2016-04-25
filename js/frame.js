@@ -1,7 +1,7 @@
 $( document ).ready( function(){
-	// $(function () {
-	// 	  $('[data-toggle="popover"]').popover()
-	// });
+	$(function () {
+		  $('[data-toggle="popover"]').popover()
+	});
 	$("#start_lesson").click(function () {
 		 $(".guide_section").hide();
 		 $(".lesson_section").show();
