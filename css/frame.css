@@ -14,3 +14,13 @@ article{
 .row{
 	padding-top: 10px;
 }
+.lesson_section{
+	display: none;
+	background-color: #eee;
+	padding: 10px;
+	border-radius: 5px;
+}
+.guide_content{
+	/*padding: 1px;*/
+	margin-bottom: 20px;
+}
